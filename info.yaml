@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     414185908134528001       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "full adder and flipflops"      # Project title
+  author:       "Lynn Francis"      # Your name
+  discord:      "lrfrancis"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "a full adder plus 4 flipflops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,24 +15,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "full adder"
+  ui[1]: "full adder"
+  ui[2]: "flip flop set"
+  ui[3]: "set for carry"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "result of full adder"
+  uo[1]: "result of first flipflop"
+  uo[2]: "second flip flop"
+  uo[3]: "third flipflop"
+  uo[4]: "fourth flipflop"
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "carry"
 
   # Bidirectional pins
   uio[0]: ""
