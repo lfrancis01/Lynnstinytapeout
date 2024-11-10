@@ -8,13 +8,12 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+It's a full adder plus 4 flip flops
 
 ## How to test
 
-Explain how to use your project
+inputs 1 and 2 power the adder, it also needs the clock turned on to use the carries. Input 2 is the set for the flipflops. Input 3 is the set for the carry flipflop
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+whatever you want to test the output
